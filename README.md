@@ -1,2 +1,3 @@
-# B210--Assignment-1-
-Assignment 1 for B210 
+The purpose of this program is to analyze a CSV file and determine its basic structure by identifying how many columns and rows it contains. It is designed to give a quick summary of the dataset without modifying the file.
+The program takes a CSV file path as input, either from the command line or a predefined default location, and reads the file to count the number of columns from the header and the number of data rows. It outputs this information by printing the total columns, data rows, and total rows (including the header) to the terminal.
+The program is used by running the Python script, which calls a function that opens the CSV file, validates that it exists, and processes it row by row. The code is structured so the main block handles input selection, while the function performs the counting logic and displays the results, making the program clear and easy to reuse.
